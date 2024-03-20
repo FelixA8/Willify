@@ -1,0 +1,61 @@
+/**********************/
+/* BELOW 1000 pixels (For Small Desktop II) */
+/**********************/
+@media (max-width: 63em) {
+  .hero-img {
+    width: 90%;
+  }
+}
+
+/**********************/
+/* BELOW 1000 pixels (For Small Desktop II) */
+/**********************/
+@media (max-width: 768px) {
+  .hero-img {
+    width: 90%;
+  }
+  .section-hero {
+    height: 90vh;
+  }
+  .reccomendation-cover {
+    padding-right: 0rem;
+  }
+  .reccomendation-scroll-images {
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  .reccomendation-left {
+    display: none;
+  }
+  .reccomendation-right {
+    display: none;
+  }
+
+  .best-indonesian-cover {
+    padding-right: 0rem;
+  }
+  .best-indonesian-scroll-images {
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  .best-indonesian-left {
+    display: none;
+  }
+  .best-indonesian-right {
+    display: none;
+  }
+
+  .top-artist-cover {
+    padding-right: 0rem;
+  }
+  .top-artist-scroll-images {
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  .top-artist-left {
+    display: none;
+  }
+  .top-artist-right {
+    display: none;
+  }
+}

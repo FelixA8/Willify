@@ -1,0 +1,105 @@
+.title-section {
+  padding: 0 9.6rem;
+  margin-bottom: 4.8rem;
+  margin-top: 9.6rem;
+  font-size: 2.8rem;
+}
+
+.aboutus-card-section {
+  padding: 0 9.6rem;
+  margin-bottom: 9.6rem;
+  display: flex;
+}
+
+.aboutus-custom-grid {
+  display: grid;
+  row-gap: 2.4em;
+  column-gap: 2.4rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.card-type-1 {
+  width: auto;
+  height: auto;
+  background-color: #242424;
+  border-radius: 20px;
+  padding: 2.4rem;
+}
+
+.card-type-2 {
+  width: auto;
+  height: auto;
+  background-color: #242424;
+  border-radius: 20px;
+  padding: 2.4rem;
+}
+
+.sub-card-type-1 {
+  margin: 0;
+}
+
+.founders-card {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.img-container {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.founder-img {
+  width: 50%;
+  display: flex;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.name-title {
+  font-size: 2.6rem;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 1.2rem;
+}
+
+.name-description {
+  font-size: 1.4rem;
+  display: block;
+  margin-bottom: 2.4rem;
+}
+
+.award-grid--2--cols {
+  grid-template-columns: 1fr 1fr;
+}
+
+.award-section {
+  margin-bottom: 9.6rem;
+}
+
+.award-title {
+  text-align: center;
+  display: block;
+  margin-bottom: 4.8rem;
+  font-size: 3.2rem;
+}
+
+.award-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.award-description {
+  font-size: 2.4rem;
+  font-weight: 300;
+  display: block;
+  margin-bottom: 2.4rem;
+}
+
+.award-subject {
+  font-size: 2rem;
+  font-weight: bold;
+}

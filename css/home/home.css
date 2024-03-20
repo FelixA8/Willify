@@ -1,0 +1,200 @@
+/* ---------------------- */
+/* HERO SECTION */
+/* ---------------------- */
+
+.hero-background {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4.8rem;
+  padding: 0 9.6rem;
+}
+
+.section-hero {
+  padding: 0 0 9.6rem 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-img {
+  width: 28.8rem;
+  height: 100%;
+  float: right;
+}
+
+.hero-right-box {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.hero-img-small {
+  width: 20%;
+}
+
+.best-seller-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.hero-primary-title {
+  font-size: 3.6rem;
+  margin-bottom: 3.6rem;
+}
+
+.best-seller-text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.hero-subtitle {  
+  word-wrap: break-word;
+  font-size: 1.8rem;
+}
+
+.hero-quote {
+  font-size: 1.8rem;
+}
+
+.hero-best-seller-name {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.hero-best-seller-title {
+  font-size: 1.8rem;
+}
+
+.hero-2-button-theme {
+  background-color: #BBEACC;
+  color: black;
+}
+
+.btn.hero-1-button-theme:hover {
+  background-color: #0C4A22;
+}
+
+.btn.hero-2-button-theme:hover {
+  background-color: #0C4A22;
+  color: white;
+}
+
+
+
+/* ---------------------- */
+/* RECCOMENDATION SECTION & BEST INDONESIAN SONG */
+/* ---------------------- */
+
+.section-best-indonesian-song {
+  padding-bottom: 9.6rem;
+}
+
+.section-reccomendation {
+  padding : 9.6rem 0;
+}
+
+
+.reccomendation-cover, .best-indonesian-cover {
+  position: relative;
+  padding: 0 3.2rem;
+  margin-top: 4.8rem;
+}
+
+.reccomendation-left, .best-indonesian-left {
+  border-radius: 10px;
+  background-color: #1db954;
+  border: none;
+  color: #242424;
+  font-size: 4rem;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 9;
+}
+
+button:disabled,
+button[disabled] {
+  display: none;
+}
+
+.reccomendation-right, .best-indonesian-right {
+  border-radius: 10px;
+  background-color: #1db954;
+  border: none;
+  color: #242424;
+  font-size: 4rem;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.reccomendation-scroll-images, .best-indonesian-scroll-images {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+.child {
+  min-width: 15rem;
+  max-width: 15rem;
+  height: 25rem;
+  border-radius: 20px;
+  background-color: #242424;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-right: 2.4rem;
+  justify-content: start;
+  align-items: start;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.child:hover {
+  background-color: #505050;
+  color: white;
+  cursor:pointer;
+}
+
+.song-img {
+  width: 100%;
+}
+
+.song-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 1.2rem 0 1.2rem 1.2rem;
+}
+
+.song-description {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin: 0 0 1.2rem 1.2rem;
+}

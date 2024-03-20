@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/song/song.css" />
+    <link rel="stylesheet" href="./css/global-queries-and-aboutus-queries.css" />
+    <link
+      rel="stylesheet"
+      href="./css/global-queries-and-aboutus-queries.css"
+    />
+    <link rel="stylesheet" href="./css/song/songqueries.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script defer src="./js/global.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script defer src="./js/song.js"></script>
+    <title>Song</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img class="logo" alt="Omnifood" src="img/logo/logo-2.png" />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="home.html">Home</a></li>
+          <li><a class="main-nav-link" href="aboutus.html">About us</a></li>
+          <li>
+            <a id="setgreen" class="main-nav-link" href="song.html">Songs</a>
+          </li>
+          <a class="main-nav-link nav-cta" href="register.html">Register</a>
+        </ul>
+      </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <main>
+      <div class="dark-gradient">
+        <img src="img/song-background-img.png" class="hero-background" />
+      </div>
+      <section class="section-hero">
+        <div class="center-content">
+          <div class="hero-content">
+            <h1>SPECIALZ</h1>
+            <p>King Gnu</p>
+          </div>
+          <div class="play-button" onclick="location.href='./song-detail/song-detail-main.html'"></div>
+        </div>
+      </section>
+
+      <section class="section-reccomendation" id="reccomendation">
+        <div class="cover-container">
+          <span class="subheading">Reccomendations of 2024</span>
+          <div class="reccomendation-cover">
+            <button class="reccomendation-left" onclick="leftScroll()">
+              <ion-icon name="chevron-back-outline"></ion-icon>
+            </button>
+            <div class="reccomendation-scroll-images">
+              <div class="child">
+                <img
+                  src="./img/reccomendation-song/img1.png"
+                  class="song-img"
+                />
+                <p class="song-title">Dinner Lounge</p>
+                <p class="song-description">
+                  Elegant soft music for your dinner
+                </p>
+              </div>
+              <div class="child">
+                <img
+                  src="./img/reccomendation-song/img2.png"
+                  class="song-img"
+                />
+                <p class="song-title">Opera</p>
+                <p class="song-description">
+                  Outstanding perform- ance with the classic
+                </p>
+              </div>
+              <div class="child">
+                <img
+                  src="./img/reccomendation-song/img3.png"
+                  class="song-img"
+                />
+                <p class="song-title">Metal</p>
+                <p class="song-description">
+                  Hard rock electric music to your veins
+                </p>
+              </div>
+              <div class="child" >
+                <img
+                  src="./img/reccomendation-song/img4.png"
+                  class="song-img"
+                />
+                <p class="song-title">Romantic</p>
+                <p class="song-description">
+                  This song is better to hear with your partner
+                </p>
+              </div>
+              <div class="child">
+                <img
+                  src="./img/reccomendation-song/img5.png"
+                  class="song-img"
+                />
+                <p class="song-title">Ghibli</p>
+                <p class="song-description">Made with music and heart</p>
+              </div>
+              <div class="child">
+                <img
+                  src="./img/reccomendation-song/img6.png"
+                  class="song-img"
+                />
+                <p class="song-title">Sleep</p>
+                <p class="song-description">
+                  Calm rainy sounds to help you sleep well
+                </p>
+              </div>
+              <div class="child">
+                <img
+                  src="./img/reccomendation-song/img7.png"
+                  class="song-img"
+                />
+                <p class="song-title">Focus Mode</p>
+                <p class="song-description">
+                  Low frequency song for high focus mode
+                </p>
+              </div>
+              <div class="child">
+                <img
+                  src="./img/reccomendation-song/img8.png"
+                  class="song-img"
+                />
+                <p class="song-title">Jazz</p>
+                <p class="song-description">
+                  go back to 19 to 20th century classic genre
+                </p>
+              </div>
+              <div class="child">
+                <img
+                  src="./img/reccomendation-song/img9.png"
+                  class="song-img"
+                />
+                <p class="song-title">K-Pop</p>
+                <p class="song-description">
+                  Get into the most hit song in Asia
+                </p>
+              </div>
+              <div class="child">
+                <img
+                  src="./img/reccomendation-song/img10.png"
+                  class="song-img"
+                />
+                <p class="song-title">J-Pop</p>
+                <p class="song-description">
+                  Japanese song that is nice to hear.
+                </p>
+              </div>
+            </div>
+            <button class="reccomendation-right" onclick="rightScroll()">
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="section-best-indonesian-song">
+        <div class="cover-container">
+          <span class="subheading">Best Indonesian Song of 2023</span>
+          <div class="best-indonesian-cover">
+            <button class="best-indonesian-left" onclick="leftScroll()">
+              <ion-icon name="chevron-back-outline"></ion-icon>
+            </button>
+            <div class="best-indonesian-scroll-images">
+              <div class="child">
+                <img
+                  src="./img/best-indonesian-song/img1.png"
+                  class="song-img"
+                />
+                <p class="song-title">Komang</p>
+                <p class="song-description">Raim Laode</p>
+              </div>
+              <div class="child">
+                <img
+                  src="./img/best-indonesian-song/img2.png"
+                  class="song-img"
+                />
+                <p class="song-title">Melukis Senja</p>
+                <p class="song-description">Budi Doremi</p>
+              </div>
+              <div class="child">
+                <img
+                  src="./img/best-indonesian-song/img3.png"
+                  class="song-img"
+                />
+                <p class="song-title">Lantas</p>
+                <p class="song-description">Juicy Luicy</p>
+              </div>
+              <div class="child">
+                <img
+                  src="./img/best-indonesian-song/img4.png"
+                  class="song-img"
+                />
+                <p class="song-title">Asal kau Bahagia</p>
+                <p class="song-description">Armada</p>
+              </div>
+              <div class="child">
+                <img
+                  src="./img/best-indonesian-song/img5.png"
+                  class="song-img"
+                />
+                <p class="song-title">Zona Nyaman</p>
+                <p class="song-description">FourTwnty</p>
+              </div>
+              <div class="child">
+                <img
+                  src="./img/best-indonesian-song/img6.png"
+                  class="song-img"
+                />
+                <p class="song-title">Mesin Waktu</p>
+                <p class="song-description">Budi Doremi</p>
+              </div>
+              <div class="child">
+                <img
+                  src="./img/best-indonesian-song/img7.png"
+                  class="song-img"
+                />
+                <p class="song-title">Payung Teduh</p>
+                <p class="song-description">Akad</p>
+              </div>
+              <div class="child">
+                <img
+                  src="./img/best-indonesian-song/img8.png"
+                  class="song-img"
+                />
+                <p class="song-title">Bukti</p>
+                <p class="song-description">Virgoun</p>
+              </div>
+              <div class="child">
+                <img
+                  src="./img/best-indonesian-song/img9.png"
+                  class="song-img"
+                />
+                <p class="song-title">Jikalau Kau Cinta</p>
+                <p class="song-description">Judika</p>
+              </div>
+              <div class="child">
+                <img
+                  src="./img/best-indonesian-song/img10.png"
+                  class="song-img"
+                />
+                <p class="song-title">Bercinta Lewat Kata</p>
+                <p class="song-description">Donne Maula</p>
+              </div>
+            </div>
+            <button class="best-indonesian-right" onclick="rightScroll()">
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="section-top-artist-global">
+        <div class="cover-container">
+          <span class="subheading">Best Indonesian Song of 2023</span>
+          <div class="top-artist-cover">
+            <button class="top-artist-left" onclick="leftScroll()">
+              <ion-icon name="chevron-back-outline"></ion-icon>
+            </button>
+            <div class="top-artist-scroll-images">
+              <div class="rounded-child">
+                <img src="./img/top-artist/artist1.png" class="artist-img" />
+                <p class="artist-title">Yoasobi</p>
+              </div>
+              <div class="rounded-child">
+                <img src="./img/top-artist/artist2.png" class="artist-img" />
+                <p class="artist-title">FourTwnty</p>
+              </div>
+              <div class="rounded-child">
+                <img src="./img/top-artist/artist3.png" class="artist-img" />
+                <p class="artist-title">Raim Laode</p>
+              </div>
+              <div class="rounded-child">
+                <img src="./img/top-artist/artist4.png" class="artist-img" />
+                <p class="artist-title">Budi Doremi</p>
+              </div>
+              <div class="rounded-child">
+                <img src="./img/top-artist/artist5.png" class="artist-img" />
+                <p class="artist-title">LiSA</p>
+              </div>
+              <div class="rounded-child">
+                <img src="./img/top-artist/artist6.png" class="artist-img" />
+                <p class="artist-title">Ed Sheeran</p>
+              </div>
+              <div class="rounded-child">
+                <img src="./img/top-artist/artist7.png" class="artist-img" />
+                <p class="artist-title">Kenshi Yonezu</p>
+              </div>
+              <div class="rounded-child">
+                <img src="./img/top-artist/artist8.png" class="artist-img" />
+                <p class="artist-title">Judika</p>
+              </div>
+              <div class="rounded-child">
+                <img src="./img/top-artist/artist9.png" class="artist-img" />
+                <p class="artist-title">Virgoun</p>
+              </div>
+              <div class="rounded-child">
+                <img src="./img/top-artist/artist10.png" class="artist-img" />
+                <p class="artist-title">Cold Play</p>
+              </div>
+            </div>
+            <button class="top-artist-right" onclick="rightScroll()">
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="top-billboard">
+        <div class="container">
+          <span class="subheading">Top 4 Billboard Japan Song</span>
+          <div class="flex-billboard">
+            <div class="billboard-card">
+              <img src="img/top-billboard/1.jpg" class="billboard-img" />
+              <div class="billboard-desc">
+                <div class="billboard-bio">
+                  <p class="billboard-title">Specialz</p>
+                  <p class="billboard-artist">King Gnu</p>
+                </div>
+                <p class="billboard-rank">#1</p>
+              </div>
+            </div>
+            <div class="billboard-card">
+              <img src="img/top-billboard/2.jpg" class="billboard-img" />
+              <div class="billboard-desc">
+                <div class="billboard-bio">
+                  <p class="billboard-title">IDOL</p>
+                  <p class="billboard-artist">Yoasobi</p>
+                </div>
+                <p class="billboard-rank">#2</p>
+              </div>
+            </div>
+            <div class="billboard-card">
+              <img src="img/top-billboard/3.jpg" class="billboard-img" />
+              <div class="billboard-desc">
+                <div class="billboard-bio">
+                  <p class="billboard-title">炎</p>
+                  <p class="billboard-artist">LiSA</p>
+                </div>
+                <p class="billboard-rank">#3</p>
+              </div>
+            </div>
+            <div class="billboard-card">
+              <img src="img/top-billboard/4.jpg" class="billboard-img" />
+              <div class="billboard-desc">
+                <div class="billboard-bio">
+                  <p class="billboard-title">打上花火</p>
+                  <p class="billboard-artist">DAOKO × 米津玄師</p>
+                </div>
+                <p class="billboard-rank">#4</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <hr class="horizontal-line" />
+    <footer class="footer" id="footer">
+      <div class="container grid grid--footer">
+        <div class="findus-col">
+          <a href="#" class="footer-heading"> Social media: </a>
+          <ul class="social-links">
+            <li>
+              <a class="footer-link"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link"
+                ><ion-icon class="social-icon" name="logo-youtube"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+          <p class="copyright">
+            Copyright &copy; <span class="year">2024</span> by Willify, Co. All
+            right reserved.
+          </p>
+        </div>
+        <div class="contact-col">
+          <a href="#" class="footer-heading"> Contact us: </a>
+          <address class="contacts">
+            <p class="address">
+              623 Harrison St., 2nd Floor, San Francisco, CA 94107
+            </p>
+            <p class="footer-link">415-201-6370</p>
+            <p class="footer-link">willify@music.com</p>
+          </address>
+        </div>
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">About us</a></li>
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <li><a class="footer-link" href="#">Songs</a></li>
+            <li><a class="footer-link" href="#">Database</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Create account</a></li>
+            <li><a class="footer-link" href="#">Sign in</a></li>
+            <li><a class="footer-link" href="#">iOS app</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
