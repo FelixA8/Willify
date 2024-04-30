@@ -30,6 +30,10 @@
   align-items: center;
 }
 
+.btn.hero-1-button-theme {
+  margin-right: 3.2rem;
+}
+
 .hero-img {
   width: 28.8rem;
   height: 100%;

@@ -69,7 +69,18 @@
   }
   .hero-btn-section {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    gap: 2.4rem;
+    align-items: center;
+    text-align: center;
+  }
+  .btn.hero-1-button-theme{
+    width: 50%;
+    margin-right: 0;
+  }
+  .btn.hero-2-button-theme{
+    width: 50%;
   }
   .hero-img-box {
     display: none;
@@ -106,9 +117,8 @@
   .best-indonesian-cover {
     padding: 0
   }
-  .btn.margin-left.hero-2-button-theme {
+  .btn.hero-2-button-theme {
     padding: 1.2rem 1.2rem;
-    margin: 0 3.2rem;
   }
   .best-seller-box {
     flex-direction: column;
@@ -130,13 +140,6 @@
   }
   .hero-btn-section {
     justify-content: center;
-  }
-  .btn.margin-left.hero-2-button-theme {
-    margin: 0rem;
-    margin-left: 2rem;
-  }
-  .btn.hero-1-button-theme{
-    margin-right: 2rem;
-    font-size: 1.4rem
+    width: 100%;
   }
 }

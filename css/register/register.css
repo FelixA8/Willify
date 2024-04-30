@@ -1,0 +1,191 @@
+#setgreen-register {
+  background-color: #1db954;
+}
+
+.text-highlight {
+  color: #1db954;
+}
+
+.section-hero h2 {
+  font-size: 4.8rem;
+  letter-spacing: 2px;
+}
+
+.section-hero {
+  padding: 0 9.6rem 12.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.section-div {
+  width: 50%;
+}
+
+.register-form {
+  margin-top: 4.8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.register-form-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2.4rem;
+}
+
+.register-button {
+  margin-top: 1.4rem;
+  background-color: #1db954;
+  color: white;
+  padding: 0.8rem 0;
+  font-size: 2rem;
+  font-family: "Montserrat";
+  text-decoration: none;
+  border: 1px solid #1db954;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-button:hover {
+  background-color: #14823b;
+  border: 1px solid #14823b;
+}
+
+.register-button:focus {
+  background-color: #0d5928;
+  border: 1px solid #0d5928;
+}
+
+.register-input {
+  font-size: 3.6rem;
+}
+
+.register-form-card-gender {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-radiobutton {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  gap: 1rem;
+}
+
+.register-form-card label {
+  font-size: 1.4rem;
+}
+
+.register-form-card input {
+  background-color: #424242;
+  text-decoration: none;
+  width: 100%;
+  height: 3.5rem;
+  padding: 0 1.25rem;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1.6rem;
+  border: 1px solid #424242;
+  font-family: "Montserrat", sans-serif;
+  margin: 0.625rem auto;
+  transition: all 250ms;
+  color: white;
+}
+.register-form-card input:focus {
+  border: 1px solid white;
+}
+
+.gender-checkbox-card {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.gender-card {
+  margin-bottom: 2.4rem;
+}
+
+.gender-title {
+  font-size: 1.4rem;
+  margin-bottom: 1.2rem;
+}
+
+.text-male {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2196f3;
+}
+
+.text-female {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #bd007b;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #bd007b;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}

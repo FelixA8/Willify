@@ -1,11 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/general.css" />
+    <link
+      rel="stylesheet"
+      href="./css/global-queries-and-aboutus-queries.css"
+    />
+    <link rel="stylesheet" href="./css/register/register.css" />
+    <link rel="stylesheet" href="./css/register/registerqueries.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script defer src="./js/global.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Register</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img class="logo" alt="Omnifood" src="img/logo/logo-2.png" />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li>
+            <a class="main-nav-link" href="home.html">Home</a>
+          </li>
+          <li><a class="main-nav-link" href="aboutus.html">About us</a></li>
+          <li>
+            <a class="main-nav-link" href="song.html">Songs</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <main>
+      <section class="section-hero">
+        <div class="section-div">
+          <h2><span class="text-highlight">Register</span> to Listen with Our App</h2>
+          <form class="register-form" id="register" method="post">
+            <div class="register-form-card">
+              <label for="name">Name</label>
+              <input type="text" id="name" class="register-input" required />
+            </div>
+            <div class="register-form-card">
+              <label for="email">Email</label>
+              <input type="email" id="email" class="register-input" required />
+            </div>
+            <div class="register-form-card">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                class="register-input"
+                required
+              />
+            </div>
+            <div class="register-form-card">
+              <label for="age">Age</label>
+              <input type="number" id="age" class="register-input" required />
+            </div>
+            <!-- <div class="register-form-card-gender">
+              <div class="form-radiobutton">
+                <input
+                  type="radio"
+                  id="gender-male"
+                  name="gender"
+                  value="Male"
+                  required
+                />
+                <label for="gender-male">Male</label>
+              </div>
+              <div class="form-radiobutton">
+                <input
+                  type="radio"
+                  id="gender-female"
+                  name="gender"
+                  value="Female"
+                  required
+                />
+                <label for="gender-female">Female</label>
+              </div>
+            </div> -->
+            <div class="gender-card">
+              <p class="gender-title">Gender:</p>
+              <div class="gender-checkbox-card">
+                <p class="text-female">Female</p>
+                <label class="switch">
+                  <input type="checkbox" id="checkbox" checked />
+                  <span class="slider round"></span>
+                </label>
+                <p class="text-male">Male</p>
+              </div>
+            </div>
+
+            <button type="button" class="register-button" onclick="validateData()">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>

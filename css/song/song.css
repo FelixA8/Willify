@@ -233,31 +233,36 @@ button[disabled] {
 
 .billboard-card {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   background-color: #242424;
   overflow: hidden;
-  border-radius: 30px;
-  width: 45%;
-  height: auto;
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 12.8rem;
 }
 
 .flex-billboard {
   display: flex;
-  column-gap: 10%;
-  row-gap: 4.8rem;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 4.8rem;
   margin-top: 4.8rem;
 }
 
 .billoard-img {
-  width: 100%;
-  height: auto;
+  width: 20%;
+}
+
+.billboard-bio {
+  text-align: start;
 }
 
 .billboard-desc {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
   padding: 1.6rem 1.2rem;
 }
 

@@ -1,0 +1,22 @@
+@media (max-width: 768px) {
+  .section-hero {
+    padding: 0 4.8rem 9.6rem;
+  }
+  .section-div {
+    width: 80%;
+  }
+}
+
+/**********************/
+/* BELOW 400 pixels (For Phones)*/
+/**********************/
+@media (max-width: 23em) {
+  .section-hero h2 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+  }
+  .section-hero {
+    padding: 0 2.4rem 9.6rem;
+    gap: 1.6rem;
+  }
+}
