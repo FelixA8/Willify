@@ -121,13 +121,13 @@
 .text-male {
   font-size: 2rem;
   font-weight: bold;
-  color: #2196f3;
+  color: white;
 }
 
 .text-female {
   font-size: 2rem;
   font-weight: bold;
-  color: #bd007b;
+  color: white;
 }
 
 .switch {
@@ -150,7 +150,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #bd007b;
+  background-color: white;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -162,17 +162,17 @@
   width: 26px;
   left: 4px;
   bottom: 4px;
-  background-color: white;
+  background-color: #1db954;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
 input:checked + .slider {
-  background-color: #2196f3;
+  background-color: white;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196f3;
+  box-shadow: 0 0 1px #1db954;
 }
 
 input:checked + .slider:before {
